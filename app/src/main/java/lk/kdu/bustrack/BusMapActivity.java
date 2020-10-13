@@ -239,7 +239,7 @@ public class BusMapActivity extends FragmentActivity implements OnMapReadyCallba
                 .withListener(this)
                 .alternativeRoutes(false)
                 .waypoints(startHaltLatLng, destHaltLatLng)
-                .key("AIzaSyCy17AM0LyvcxWFgzgCYaeUgm36nu9PZWc")
+                .key(GOOGLE_MAP_API)
                 .build();
         routing.execute();
 
